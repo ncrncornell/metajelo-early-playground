@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <element name="rootElement" type="declaredTYpe"> </element>
+  <complexType name="declaredTYpe">
+    <sequence>
+      <element name="child1" type="date"/>
+      <element name="child2" type="boolean"/>
+    </sequence>
+  </complexType>
+</schema>
